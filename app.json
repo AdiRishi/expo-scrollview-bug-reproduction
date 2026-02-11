@@ -1,14 +1,15 @@
 {
   "expo": {
-    "name": "uniwind-bug-reproduction",
-    "slug": "uniwind-bug-reproduction",
+    "name": "scrollview-bug-reproduction",
+    "slug": "scrollview-bug-reproduction",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "uniwindbugreproduction",
+    "scheme": "scrollviewbugreproduction",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "icon": "./assets/expo.icon",
+      "bundleIdentifier": "com.anonymous.scrollviewbugreproduction"
     },
     "android": {
       "adaptiveIcon": {
@@ -17,7 +18,8 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.scrollviewbugreproduction"
     },
     "web": {
       "output": "static",
